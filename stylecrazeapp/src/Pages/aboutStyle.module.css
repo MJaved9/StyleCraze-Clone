@@ -1,0 +1,16 @@
+.about1{
+    display: flex;
+}
+
+.about1>div{
+    padding: 13px 30px 3px 30px;
+}
+@media only screen and (max-width: 992px){
+    .about1{
+        display: grid;
+    }
+    
+    .about1>div{
+        padding: 7px 20px 3px 20px;
+    }
+}

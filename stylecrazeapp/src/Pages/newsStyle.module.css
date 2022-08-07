@@ -1,0 +1,46 @@
+.news1{
+    display: flex;
+    gap:20px;
+}
+.news1>button{
+    border: 2px solid #fe5c74;
+    padding: 15px 40px 15px 40px;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.news2{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 992px) {
+    .news1{
+        display: grid;
+        gap:20px;
+    }
+    .news1>button{
+        border: 2px solid #fe5c74;
+        /* padding: 5px 10px 5px 10px; */
+        background-color: white;
+        color: black;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+    .news2{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}

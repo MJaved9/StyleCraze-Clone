@@ -1,0 +1,133 @@
+.social1{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+}
+.social2{
+    display: flex;
+    gap:20px;
+}
+.social2>div{
+    background-color: brown;
+    padding: 18px 40px 5px 40px;
+    font-size: large;
+
+}
+.social1>div>:nth-child(1){
+    background-color:#3b5999;
+    color: white;
+}
+.social1>div>:nth-child(2){
+    color:#3b5999;
+    background-color:#ebebeb;
+}
+.social1>div>:nth-child(3){
+    color:white;
+    background-color:#bd0f1c;
+}
+.social1>div>:nth-child(4){
+    color:#bd0f1c;
+    background-color:#ebebeb;
+}
+.social1>div>:nth-child(5){
+    color:white;
+    background-color:#d53791;
+}
+
+.social1>div>:nth-child(6){
+    color:#d53791;
+    background-color:#ebebeb;
+}
+.makeup{
+    display:flex;
+    gap:10px;
+    font-size: larger;
+    text-align-last: auto;
+}
+.makeup2{
+    display: flex;
+    gap:20px
+}
+.inpress{
+    display: flex;
+    gap:15px;
+    text-align: center;
+    padding: 30px 70px 30px 70px;
+}
+.inpress>div{
+    background-color: white;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 5px 2px 4px 0px, rgba(14, 30, 37, 0.32) 5px 2px 16px 0px; */
+    padding: 30px 70px 30px 70px;
+}
+.doc{
+    display: flex;
+}
+.doc>div>{
+    padding: 50px 10px 50px 10px;
+}
+
+.inside_doc{
+    display: flex;
+}
+.inside_doc>div{
+    /* box-shadow: rgba(14, 30, 37, 0.12) 5px 2px 4px 0px, rgba(14, 30, 37, 0.32) 5px 2px 16px 0px; */
+    padding: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .social_strip{
+        display: flex;
+        gap:20px
+    }
+    .social_strip>div{
+        border: 1px solid violet;
+    }
+    
+    .makeup{
+        display:flex;
+        gap:10px;
+        font-size: larger;
+        text-align-last: auto;
+    }
+    .makeup2{
+        display: flex;
+        gap:20px
+    }
+    .inpress{
+        display: grid;
+        gap:15px;
+        text-align: center;
+        /* padding: 30px 70px 30px 70px; */
+    }
+    .inpress>div{
+        background-color: white;
+        /* box-shadow: rgba(14, 30, 37, 0.12) 5px 2px 4px 0px, rgba(14, 30, 37, 0.32) 5px 2px 16px 0px; */
+        padding: 30px 70px 30px 70px;
+    }
+    .doc{
+        display: flex;
+    }
+    .doc>div>{
+        padding: 50px 10px 50px 10px;
+    }
+    
+    .inside_doc{
+        display: flex;
+    }
+    .inside_doc>div{
+        /* box-shadow: rgba(14, 30, 37, 0.12) 5px 2px 4px 0px, rgba(14, 30, 37, 0.32) 5px 2px 16px 0px; */
+        padding: 10px 10px 10px 10px;
+    }
+    .social1{
+        display: grid;
+        gap:15px;
+        justify-content: center;
+    }
+    .social2{
+        display: grid;
+        gap:20px;
+    }
+
+}
+
+
