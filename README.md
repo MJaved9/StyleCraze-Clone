@@ -1,8 +1,8 @@
-# StyleCraze-StyleCraze is a global women's platform that aims to answer one question: what do women want? From health and wellness to lifestyle and beauty
+
 
 
 # Getting Started with Create React App
-
+StyleCraze-StyleCraze is a global women's platform that aims to answer one question: what do women want? From health and wellness to lifestyle and beauty
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
